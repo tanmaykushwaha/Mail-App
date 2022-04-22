@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/formm', (req, res) => {
-    console.log(req.body.name)
+    console.log(process.env.keyy)
         const name = req.body.name
         const email = req.body.email
         const text = req.body.text
